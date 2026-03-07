@@ -62,13 +62,12 @@ This repository solves those problems by providing:
 ssl-client-app
 │
 ├── src/main/java/com/learning/avi/sslclient
-├── hello
-│      ├── SecureApiClient.java
-│      ├── RestClientConfig.java
-│      └── HelloController.java
-|
-|── DemoApplication.java
-│
+│   ├── hello
+│   │     ├── SecureApiClient.java
+│   │     ├── RestClientConfig.java
+│   │     └── HelloController.java
+|   └── DemoApplication.java
+│      
 ├── src/main/resources
 │   ├── application.yml
 │   └── truststore.p12
