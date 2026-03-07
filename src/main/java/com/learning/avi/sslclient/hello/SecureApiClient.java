@@ -12,7 +12,7 @@ public class SecureApiClient {
     this.restClient = restClient;
   }
 
-  public String callApi() {
+  public String callSecureApi() {
     return restClient.get().uri("/api/hello").retrieve().body(String.class);
   }
 }

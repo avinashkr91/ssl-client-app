@@ -14,6 +14,6 @@ public class HelloController {
 
   @GetMapping("/hello")
   public String call() {
-    return client.callApi();
+    return client.callSecureApi();
   }
 }
