@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  ssl:
+    bundle:
+      jks:
+        secure-api-bundle:
+          truststore:
+            location: classpath:truststore.p12
+            password: changeit
+            type: PKCS12
