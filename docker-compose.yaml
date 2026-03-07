@@ -1,0 +1,7 @@
+services:
+  nginx:
+    container_name: ssl-secured-server
+    build:
+      dockerfile: Dockerfile
+    ports:
+      - "8443:8443"
