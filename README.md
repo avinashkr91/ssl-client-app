@@ -230,6 +230,7 @@ services:
     ports:
       - "8443:8443"
 ```
+---
 
 Server is now accessible at:
 
@@ -250,7 +251,7 @@ gradlew spring-boot:run
 Test endpoint:
 
 ```
-GET http://localhost:8080/demo/call
+GET http://localhost:8080/hello
 ```
 
 Expected response:
